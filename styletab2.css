@@ -1,0 +1,111 @@
+@media (min-width: 745px) {
+  .nav-mid {
+    width: 45%;
+    border-radius: 50px;
+    flex-direction: row-reverse;
+    height: 3rem;
+  }
+  .nav-logo {
+    display: flex;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  .nav-1h1 {
+    flex-direction: row;
+    width: 85%;
+    gap: 30px;
+  }
+  .nav-1h1 h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    padding-right: 8px;
+    border-right: 1px solid #222222;
+  }
+  .nav-p1 p {
+    font-size: 14px;
+    color: #717171;
+    padding-right: 8px;
+    border-right: 1px solid #222222;
+  }
+  #hide-pc {
+    display: none;
+  }
+  #pink-icon {
+    color: #fff;
+    background-color: #ff5170;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+  }
+  .nav-right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .nav-rght-lft {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+  .nav-rght-lft a {
+    text-decoration: none;
+    color: #222222;
+    border-radius: 10px;
+  }
+  .nav-rght-lft a:hover {
+    background-color: #d8d7d792;
+    padding: 4px;
+  }
+
+  .nav-rght-lft i {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+  }
+  .nav-rght-lft i:hover {
+    background-color: #d8d7d792;
+  }
+  .nav-rght-rght button {
+    display: flex;
+    align-items: center;
+    justify-content: space-betweens;
+    gap: 1rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+  }
+  .nav-rght-rght button:hover {
+    border-bottom: #2222224a solid 2px;
+  }
+
+  .nav-rght-rght img {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    width: 2rem;
+    height: 2rem;
+  }
+  .nav-rght-rght i {
+    font-size: 1rem;
+  }
+  .footer-sec2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .footer-sec3 {
+    justify-content: center;
+    align-items: center;
+  }
+}

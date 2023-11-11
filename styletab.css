@@ -1,0 +1,19 @@
+@media (min-width: 550px) {
+  .shop-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .box {
+    width: 35%;
+    margin: auto;
+    height: 100%;
+    margin: 1rem 0;
+  }
+  .box img {
+    height: 40vw;
+  }
+  .bottom-box {
+    display: flex;
+  }
+}

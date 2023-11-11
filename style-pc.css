@@ -1,0 +1,21 @@
+@media (min-width: 950px) {
+  .shop-section {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+  }
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+  .box img {
+    height: 24vw;
+  }
+  #sm-scrn {
+    display: none;
+  }
+
+  .nav-logo #full-scrn {
+    display: block;
+    padding-right: 1rem;
+  }
+}
